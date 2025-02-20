@@ -1,0 +1,16 @@
+var teclado = require("prompt-sync")();
+console.log("-------------------");
+console.log("-  Calculo media  -");
+console.log("-------------------");
+var notaBimestralUm = parseInt(teclado("Digite a nota N1: "));
+var notaBimestralDois = parseInt(teclado("Digite a nota N2: "));
+var notaBimestralTres = parseInt(teclado("Digite a nota N3: "));
+var notaBimestralQuatro = parseInt(teclado("Digite a nota N4: "));
+var notaBimestralCinco = parseInt(teclado("Digite a nota N5: "));
+var notaBimestralSeis = parseInt(teclado("Digite a nota N6: "));
+var notaBimestralSete = parseInt(teclado("Digite a nota N7: "));
+var notaBimestralOito = parseInt(teclado("Digite a nota N8: "));
+var notaBimestralNove = parseInt(teclado("Digite a nota N9: "));
+var notaBimestralDez = parseInt(teclado("Digite a nota N10: "));
+var media = (notaBimestralUm + notaBimestralDois + notaBimestralTres + notaBimestralQuatro + notaBimestralCinco + notaBimestralSeis + notaBimestralSete + notaBimestralOito + notaBimestralNove + notaBimestralDez) / 10;
+console.log("A media \u00E9 ".concat(media));

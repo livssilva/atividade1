@@ -10,3 +10,4 @@ let formacao: string = `biologia`;
 console.log (`${saudacao} me chamo ${nome}, tenho ${idade} anos no meu tempo livre gosto de ${div1}, ${div2} e ${div3}.
  Tenho a intenção de me formar em ${formacao}`)
  
+ 
